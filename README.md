@@ -9,9 +9,9 @@ ToDo
 
 or
 
--find
+-find in statusIcons.sqf
 
-  sb_getIcon = {
+    sb_getIcon = {
         _value = _this select 0;
         _icon = "100";
 
@@ -33,7 +33,7 @@ or
  
 and replace with
 
-  sb_getIcon = {
+    sb_getIcon = {
       _value = _this select 0;
       _icon = "100";
 
